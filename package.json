@@ -1,0 +1,27 @@
+{
+  "name": "class-validator-test",
+  "version": "1.0.0",
+  "description": "Test class-validator functionality with two separate modules",
+  "main": "dist/index.js",
+  "scripts": {
+    "preinstall": "cd common && npm i",
+    "prebuild": "rimraf dist && cd common && npm run build",
+    "build": "tsc",
+    "start": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dima Gusyatiner <dima@webify.digital>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "class-validator-test-common": "file:./common",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^2.4.2",
+    "class-validator": "^0.9.1",
+    "rimraf": "^2.6.3",
+    "tscpaths": "0.0.9",
+    "typescript": "^3.4.5"
+  }
+}
