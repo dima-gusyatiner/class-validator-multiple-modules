@@ -1,5 +1,5 @@
 {
-  "name": "class-validator-test",
+  "name": "class-validator-multiple-modules",
   "version": "1.0.0",
   "description": "Test class-validator functionality with two separate modules",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "author": "Dima Gusyatiner <dima@webify.digital>",
   "license": "UNLICENSED",
   "dependencies": {
-    "class-validator-test-common": "file:./common",
+    "class-validator-multiple-modules-common": "file:./common",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@ import "reflect-metadata";
 import chalk from "chalk";
 import { validateSync } from 'class-validator';
 
-import { Model } from 'class-validator-test-common';
+import { Model } from 'class-validator-multiple-modules-common';
 
 // Create models
 const models = { valid: new Model, invalid: new Model };

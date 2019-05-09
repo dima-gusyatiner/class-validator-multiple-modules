@@ -1,5 +1,5 @@
 {
-  "name": "class-validator-test-common",
+  "name": "class-validator-multiple-modules-common",
   "version": "1.0.0",
   "description": "This is the common package, that is used in the class-validator test",
   "main": "dist/index.js",
